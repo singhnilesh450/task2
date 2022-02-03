@@ -57,10 +57,12 @@ div a:last-child::after {
 #logo {
   /* margin-bottom: 2rem; */
   position: absolute;
-  display: block;
+  top: 10px;
+  /* left: 15px; */
+  /* display: block; */
   /* left: 0px;
   top: 0px; */
-  z-index: auto;
+  /* z-index: auto; */
 }
 .first {
   height: 10rem;
