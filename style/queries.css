@@ -1,5 +1,45 @@
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 25em) {
+  #navig {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    margin-top: 18rem;
+    background-color: rgba(7, 21, 37, 0.7);
+    z-index: 1;
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-links ul li a {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+  }
+
+  /* //////// */
   .mainContainer {
     max-width: 90vw;
     height: 80vh;
@@ -98,6 +138,9 @@
     top: 55px;
     max-width: 20%;
   }
+  .fix_log {
+    top: 62px !important;
+  }
   .sec_container {
     /* height: 8vh; */
     max-width: 90vw;
@@ -109,6 +152,45 @@
 }
 
 @media (min-width: 25em) {
+  #navig {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    margin-top: 18rem;
+    background-color: rgba(7, 21, 37, 0.7);
+    z-index: 1;
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-links ul li a {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+  }
+  /* /////////// */
   .mainContainer {
     max-width: 90vw;
     height: 80vh;
@@ -219,6 +301,45 @@
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 37.5em) {
+  #navig {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    margin-top: 18rem;
+    background-color: rgba(7, 21, 37, 0.7);
+    z-index: 1;
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-links ul li a {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+  }
+  /* ////// */
   .img1 {
     object-fit: fill;
   }
@@ -259,6 +380,52 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 47.5em) {
+  #navig {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    margin-top: 18rem;
+    background-color: rgba(7, 21, 37, 0.7);
+    z-index: 1;
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .navbar-links ul li a {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+  }
+  .toggle-button {
+    top: 8rem;
+    right: 10rem;
+  }
+  /* .but {
+    top: 9rem;
+  } */
+  /* //////////// */
   .mainContainer {
     background-color: rgb(204, 199, 199, 0.5);
     margin: auto;
@@ -364,6 +531,9 @@
     margin-left: 1rem;
     margin-right: auto;
   }
+  .fix_log {
+    top: 40px !important;
+  }
   .sec_container {
     /* height: 8vh; */
     max-width: 80vw;
@@ -380,6 +550,42 @@
   }
 }
 @media only screen and (min-width: 75em) {
+  .toggle-button {
+    display: none;
+  }
+  .but {
+    display: none;
+  }
+  .navbar-links {
+    margin-top: initial;
+    /* margin-bottom: 0; */
+    background-color: initial;
+    z-index: initial;
+    display: initial;
+    width: initial;
+  }
+
+  .navbar-links ul {
+    width: initial;
+    flex-direction: initial;
+    display: initial;
+  }
+
+  .navbar-links ul li {
+    text-align: initial;
+    margin-bottom: initial;
+  }
+
+  .navbar-links ul li a {
+    padding: initial;
+    font-size: initial;
+  }
+  #navig {
+    margin-top: 2.7rem;
+  }
+  .list {
+    margin-right: 1.5rem;
+  }
   .mainContainer {
     background-color: rgb(204, 199, 199, 0.5);
     margin: auto;
@@ -446,6 +652,7 @@
 
   .btn {
     font-size: 1.7rem;
+    font-weight: bold;
   }
   nav {
     margin-right: 2rem;
