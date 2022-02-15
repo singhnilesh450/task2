@@ -8,12 +8,15 @@
   .navigation {
     height: 3rem;
   }
+  .first {
+    background-color: rgb(155, 138, 173);
+  }
   .cont {
     margin: 0.5rem 1rem;
     width: 90%;
   }
   #head {
-    font-size: 1.2rem;
+    font-size: 1rem;
     /* margin-bottom: 0.5rem; */
   }
 
@@ -33,6 +36,25 @@
     overflow-x: hidden;
     overflow-y: auto;
     scroll-behavior: auto;
+  }
+  .inner2 {
+    flex-direction: column;
+    overflow-y: auto;
+    justify-content: unset;
+  }
+  .side1 {
+    /* min-height: min-content; */
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .side2 {
+    /* min-height: min-content; */
+    margin-top: 30rem;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    /* align-self: flex-start; */
   }
   #navig {
     font-size: 1rem;
@@ -121,6 +143,26 @@
     overflow-y: auto;
     scroll-behavior: auto;
   }
+  .inner2 {
+    flex-direction: column;
+    overflow-y: auto;
+    justify-content: unset;
+    /* flex-flow: column; */
+  }
+  .side1 {
+    /* min-height: min-content; */
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .side2 {
+    /* min-height: min-content; */
+    margin-top: 33rem;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    /* align-self: flex-start; */
+  }
   #navig {
     font-size: 1rem;
     margin-bottom: 2.2rem;
@@ -190,6 +232,26 @@
     display: flex;
     flex-direction: column;
   }
+  .inner2 {
+    flex-direction: column;
+    overflow-y: auto;
+    justify-content: unset;
+    align-content: stretch;
+  }
+  .side1 {
+    min-height: 0px;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .side2 {
+    /* min-height: min-content; */
+    margin-top: 45rem;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    /* align-self: flex-start; */
+  }
 }
 /*
 
@@ -197,6 +259,127 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 47.5em) {
+  .mainContainer {
+    background-color: rgb(204, 199, 199, 0.5);
+    margin: auto;
+    height: auto;
+    max-width: 80vw;
+    margin-top: 6rem;
+
+    display: flex;
+    flex-direction: column;
+  }
+  #dd {
+    height: 75vh;
+  }
+  .navigation {
+    height: 5rem;
+  }
+  .cont {
+    margin: 1rem 2rem;
+    width: 30%;
+  }
+  #head {
+    /* font-size: 1.2rem; */
+    /* margin-bottom: 0.5rem; */
+  }
+
+  .para {
+    font-size: 1.3rem;
+    /* line-height: 1; */
+  }
+  .inner {
+    background-color: rgba(7, 21, 37, 0.7);
+    height: initial;
+    display: flex;
+    /* flex-direction: ; */
+    /* column-gap: 3rem; */
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    overflow-y: initial;
+    overflow-x: initial;
+  }
+  .inner2 {
+    flex-direction: column;
+    overflow-y: auto;
+    justify-content: unset;
+    height: auto;
+    /* flex-flow: column nowrap; */
+  }
+  .side1 {
+    /* min-height: min-content; */
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .side2 {
+    /* min-height: min-content; */
+    margin-top: 70rem;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    /* align-self: flex-start; */
+  }
+  #navig {
+    font-size: 1.5rem;
+    /* text-color: rgb(113, 149, 180); */
+    margin-bottom: 2.2rem;
+    /* align-items: center; */
+    /* margin-left: auto; */
+    display: flex;
+    gap: 1rem;
+  }
+
+  .btn {
+    font-size: 1.7rem;
+  }
+  nav {
+    margin-right: 2rem;
+  }
+  .info {
+    font-size: 1.5rem;
+    margin-left: 1.3rem;
+  }
+
+  .list {
+    margin-left: 0;
+  }
+  nav li {
+    margin-left: 2rem;
+  }
+  div ul {
+    margin-top: 3rem;
+  }
+  div ul li {
+    list-style: none;
+    padding: 0.2rem;
+    margin-left: 0;
+  }
+
+  #logo {
+    /* left: 33%; */
+    position: absolute;
+    top: 10px;
+    margin-left: 1rem;
+    margin-right: auto;
+  }
+  .sec_container {
+    /* height: 8vh; */
+    max-width: 80vw;
+    background-color: rgba(7, 21, 37, 0.7);
+  }
+  .bot {
+    font-size: 1.3rem;
+  }
+  .bot p {
+    font-size: 1.3rem;
+  }
+  #head {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 75em) {
   .mainContainer {
     background-color: rgb(204, 199, 199, 0.5);
     margin: auto;
@@ -232,6 +415,24 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 1rem;
+    overflow-y: initial;
+    overflow-x: initial;
+  }
+  .inner2 {
+    flex-direction: row;
+    overflow-y: unset;
+    justify-content: space-around;
+  }
+  .side1 {
+    width: 30%;
+    height: 100%;
+    /* background-color: blueviolet; */
+  }
+  .side2 {
+    margin-top: initial;
+    width: 60%;
+    height: 100%;
+    /* background-color: blueviolet; */
   }
   #navig {
     font-size: 1.5rem;
@@ -282,6 +483,12 @@
     background-color: rgba(7, 21, 37, 0.7);
   }
   .bot {
-    font-size: 0.6rem;
+    font-size: 1.3rem;
+  }
+  .bot p {
+    font-size: 1.3rem;
+  }
+  #head {
+    font-size: 2rem;
   }
 }
